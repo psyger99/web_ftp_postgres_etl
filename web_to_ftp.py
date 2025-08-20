@@ -326,19 +326,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-'''
-USAGE EXAMPLES:
-
-# Run manually in sequential mode
-python web_to_ftp.py manual sequential
-
-# Run manually in parallel mode (recommended)
-python web_to_ftp.py manual parallel
-
-# Schedule to run daily (sequential)
-python web_to_ftp.py schedule sequential
-
-# Schedule to run daily (parallel)
-python web_to_ftp.py schedule parallel
-'''
