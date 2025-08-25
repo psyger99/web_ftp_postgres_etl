@@ -1,0 +1,27 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="FTP Connection Manager"
+  DTS:DTSID="{3BEDC28F-0521-44DB-AF83-E2A9968F0775}"
+  DTS:CreationName="FTP">
+  <DTS:PropertyExpression
+    DTS:Name="ServerName">@[$Project::FTP_Server]</DTS:PropertyExpression>
+  <DTS:PropertyExpression
+    DTS:Name="ServerPassword">@[$Project::FTP_Password]</DTS:PropertyExpression>
+  <DTS:PropertyExpression
+    DTS:Name="ServerPort">@[$Project::FTP_Port]</DTS:PropertyExpression>
+  <DTS:PropertyExpression
+    DTS:Name="ServerUserName">@[$Project::FTP_User]</DTS:PropertyExpression>
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="localhost:21">
+      <DTS:FtpConnection
+        DTS:ServerName="localhost"
+        DTS:ServerUserName="psyger"
+        DTS:UsePassiveMode="True">
+        <DTS:Property
+          DTS:Name="ServerPassword"
+          Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAPfcKQbDE2Eu4uWPIIro5WQAAAAACAAAAAAAQZgAAAAEAACAAAADGHx/wTPK/hrAqGzGkZyFmy8VTTLcHdw6nZcPDVezF6AAAAAAOgAAAAAIAACAAAACT0aJocnmBII/hm5+w+AjWpz1NhVD9xMcoFHiVkoPiZ4AAAAC2igVW+SSCA3hR7l+5XuoXQC/4NQP6uhM8mXb8L9Jako48FDtfvG1ZyXknA/2eJJwTD4GfdYN6E4SNxNioXgJ87BOIiOojl4UNthFyBXa0PiQvXz0l+ube/iJSsvvr3euYW+o20OEifILHx7peps0SumbW5f1ztcTUbQ97XhJts0AAAADG+zZIlHfbzfbV4iPciFxoiDncwhoc85+1qsU9Yn2KKnmx3VTkDd6Z/ARNFGHaWJ+zOWBOn5nh9XQ/bVeTZlV6</DTS:Property>
+      </DTS:FtpConnection>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
