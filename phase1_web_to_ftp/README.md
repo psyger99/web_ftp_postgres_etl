@@ -1,4 +1,6 @@
-# Web-to-FTP ETL Pipeline
+# (Phase 1) Web-to-FTP Pipeline
+
+## Overview 
 
 A Python ETL (Extract, Transform, Load) pipeline that downloads CSV files from web sources and uploads them to an FTP server with comprehensive error handling and parallel processing capabilities.
 
@@ -84,7 +86,7 @@ Edit `config.json` to define your data sources:
 ## Project Structure
 
 ```
-etl_project/
+phase1_web_to_ftp/
 ├── web_to_ftp.py          # Main ETL pipeline script
 ├── config.json            # Data source configurations
 ├── requirements.txt       # Python dependencies
