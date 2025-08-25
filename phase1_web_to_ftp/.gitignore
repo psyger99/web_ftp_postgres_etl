@@ -1,1 +1,6 @@
+# Ignore virtual environment
 .venv/
+
+# Ignore log files
+etl_project.log
+*.log
