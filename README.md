@@ -94,3 +94,7 @@ python web_to_ftp.py schedule parallel
 1. Open FtpToPostgre.sln in Visual Studio (with SSIS).
 2. Deploy main.dtsx package.
 3. Schedule with SQL Server Agent (or run manually).
+
+## Appreciation
+
+Special Thanks to Sir Josh Dev from DEP for the inspiration of this project!
