@@ -99,4 +99,4 @@ python web_to_ftp.py schedule parallel
 
 ## Appreciation
 
-Special Thanks to Sir Josh Dev from DEP for the inspiration of this project!
+Special Thanks to Sir Josh Dev from Data Engineering Pilipinas (DEP) for the inspiration of this project!
