@@ -51,9 +51,10 @@ This workflow reflects a hybrid **traditional ETL pipeline** (SSIS-based) combin
 ## Requirements
 
 ### Phase 1 (Python)
-- Python 3.9+  
-- `ftplib`, `requests`, `pandas`  
-- Local or remote FTP server  
+- Python 3.9+
+- Virtual Environment Configuration
+- Installed dependencies
+- Local or remote FTP server for staged files
 
 ### Phase 2 (SSIS)
 - SQL Server Data Tools (SSDT) with SSIS extension  
